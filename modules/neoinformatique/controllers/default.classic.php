@@ -14,7 +14,7 @@ class defaultCtrl extends jController {
     */
     function index() {
         $rep = $this->getResponse('html');
-
+        var $nom="med";
         // this is a call for the 'welcome' zone after creating a new application
         // remove this line !
         $rep->body->assignZone('MAIN', 'jelix~check_install');
