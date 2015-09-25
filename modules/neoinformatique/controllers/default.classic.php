@@ -15,7 +15,7 @@ class defaultCtrl extends jController {
     function index() {
         $rep = $this->getResponse('html');
         $nom="med";
-        $noncmoi="med";
+        $noncmoi="medali";
 
         $rep->title="hello world";
         $tpl = new jTpl();
