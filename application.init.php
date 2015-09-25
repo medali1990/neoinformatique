@@ -8,7 +8,7 @@
 * @license    All rights reserved
 */
 
-require (realpath(__DIR__.'/../../../jelix/lib/jelix/').'/'.'init.php');
+require (realpath(__DIR__.'/../../jelix/lib/jelix/').'/'.'init.php');
 
 jApp::initPaths(
     __DIR__.'/',
