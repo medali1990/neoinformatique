@@ -14,12 +14,23 @@ class defaultCtrl extends jController {
     */
     function index() {
         $rep = $this->getResponse('html');
-        var $nom="med";
-        var $noncmoi="med";
-        // this is a call for the 'welcome' zone after creating a new application
-        // remove this line !
-        $rep->body->assignZone('MAIN', 'jelix~check_install');
+        $nom="med";
+        $noncmoi="med";
+        $rep->title="hello world";
+        $tpl = new jTpl();
+        $tpl->assign('nom', $noncmoi);
+        $rep->body->assign('nom', $tpl->fetch('bonjour'));
 
+        return $rep;
+    }
+
+
+    function test_tab(){
+
+        $rep=$this->getResponse('html');
+
+        $tpl = new jTpl();
+        $rep->body->assign('MAIN',$tpl->fecth('template_test_tab'));
         return $rep;
     }
 }
