@@ -338,3 +338,223 @@ array ( )
 	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
 
 
+2015-09-26 00:08:57	::1	notice	2015-09-26 00:08:57	::1	[8]	Undefined index: MAIN	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\bonjour_html_t_15.php	9
+	/jelix/neoinformatique/www/index.php
+array ( )
+
+	0	template_842f61f5944d6908f9cf34a8e539cc7e()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 23
+	2	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 21:36:24	::1	notice	2015-09-27 21:36:24	::1	[8]	Undefined index: MAIN	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\bonjour_html_t_15.php	9
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_842f61f5944d6908f9cf34a8e539cc7e()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 23
+	2	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 21:45:00	::1	notice	2015-09-27 21:45:00	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	10
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 21:45:01	::1	notice	2015-09-27 21:45:01	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	10
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 21:46:25	::1	notice	2015-09-27 21:46:25	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	10
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 21:46:49	::1	notice	2015-09-27 21:46:49	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	10
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:18:27	::1	notice	2015-09-27 22:18:27	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:20:01	::1	notice	2015-09-27 22:20:01	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:20:47	::1	warning	2015-09-27 22:20:47	::1	[2]	Missing argument 2 for jTpl::assignZone(), called in C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php on line 20 and defined	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php	124
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	jTpl->assignZone()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 20
+	1	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	2	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:20:47	::1	notice	2015-09-27 22:20:47	::1	[8]	Undefined variable: zoneName	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php	125
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	jTpl->assignZone()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 20
+	1	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	2	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:20:47	::1	error	2015-09-27 22:20:47	::1	[16]	Invalid Syntax in the "" selector (type:zone)	C:\wamp2\www\jelix\lib\jelix\core\selector\jSelectorModule.class.php	44
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	jSelectorModule->__construct()	C:\wamp2\www\jelix\lib\jelix\utils\jZone.class.php : 285
+	1	jZone::_callZone()	C:\wamp2\www\jelix\lib\jelix\utils\jZone.class.php : 95
+	2	jZone::get()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 125
+	3	jTpl->assignZone()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 20
+	4	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	5	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:20:58	::1	warning	2015-09-27 22:20:58	::1	[2]	Missing argument 2 for jTpl::assignZone(), called in C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php on line 20 and defined	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php	124
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	jTpl->assignZone()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 20
+	1	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	2	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:20:58	::1	notice	2015-09-27 22:20:58	::1	[8]	Undefined variable: zoneName	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php	125
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	jTpl->assignZone()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 20
+	1	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	2	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:20:58	::1	error	2015-09-27 22:20:58	::1	[16]	Invalid Syntax in the "" selector (type:zone)	C:\wamp2\www\jelix\lib\jelix\core\selector\jSelectorModule.class.php	44
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	jSelectorModule->__construct()	C:\wamp2\www\jelix\lib\jelix\utils\jZone.class.php : 285
+	1	jZone::_callZone()	C:\wamp2\www\jelix\lib\jelix\utils\jZone.class.php : 95
+	2	jZone::get()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 125
+	3	jTpl->assignZone()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 20
+	4	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	5	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:21:33	::1	notice	2015-09-27 22:21:33	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:21:58	::1	notice	2015-09-27 22:21:58	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:23:56	::1	notice	2015-09-27 22:23:56	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:24:55	::1	notice	2015-09-27 22:24:55	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:25:18	::1	notice	2015-09-27 22:25:18	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:25:56	::1	notice	2015-09-27 22:25:56	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:35:12	::1	notice	2015-09-27 22:35:12	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-09-27 22:35:28	::1	notice	2015-09-27 22:35:28	::1	[8]	Undefined index: nom	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\main_html_t_15.php	12
+	/jelix/neoinformatique/www/
+array ( )
+
+	0	template_e8cabe6f92cac4f319dc4748ed7f2e29()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\lib\jelix\core\response\jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 224
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
