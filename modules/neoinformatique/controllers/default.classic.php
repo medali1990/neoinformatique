@@ -12,17 +12,14 @@ class defaultCtrl extends jController {
     /**
     *
     */
+
     function index() {
         $rep = $this->getResponse('html');
-        $nom="med";
-        $noncmoi="medali";
-
-        $rep->title="hello world";
-        $tpl = new jTpl();
-        $tpl->assign('nom', $noncmoi);
-        $rep->body->assign('nom', $tpl->fetch('bonjour'));
-
-
+        $rep->title='neoinformatique siteWeb';
+        $nom="moi";
+        $tpl=new jTpl();
+        $tpl->assign('nom', $nom);
+        $rep->body->assign('MAIN', $tpl->fetch('bonjour'));
         return $rep;
     }
 
