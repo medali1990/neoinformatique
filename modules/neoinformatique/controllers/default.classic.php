@@ -16,7 +16,9 @@ class defaultCtrl extends jController {
     function index() {
         $rep = $this->getResponse('html');
         $rep->title='neoinformatique siteWeb';
-        $nom="moi";
+        $moi='un lien';
+        $nom='<a href="#">'.$moi.'</a>';
+
         $tpl=new jTpl();
         $tpl->assign('nom', $nom);
         $rep->body->assign('MAIN', $tpl->fetch('bonjour'));
@@ -27,9 +29,10 @@ class defaultCtrl extends jController {
     function test_tab(){
 
         $rep=$this->getResponse('html');
-
+        $tab=array(1,2,3,4);
         $tpl = new jTpl();
-        $rep->body->assign('MAIN',$tpl->fecth('template_test_tab'));
+        $tpl->assign('tab',$tab);
+        $rep->body->assign('MAIN',$tpl->fecth('test_tab'));
         return $rep;
     }
 }
