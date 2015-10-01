@@ -10,7 +10,7 @@ default = "neoinformatique"
 driver="mysql"
 
 ; For most of drivers:
-database="jelix"
+database="test"
 host= "localhost"
 user= "root"
 password=

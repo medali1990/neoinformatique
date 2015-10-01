@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+
+
+<input ref="sujet" required="true" maxlength="255">
+	<label>Sujet</label>
+</input>
+
+<textarea ref="texte" required="true">
+	<label>Texte</label>
+</textarea>
+
+<input ref="news_date" required="true" type="date">
+	<label>News Date</label>
+</input>
+
+<submit ref="_submit">
+	<label>ok</label>
+</submit>
+</form>
