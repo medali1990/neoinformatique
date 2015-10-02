@@ -1,0 +1,101 @@
+2015-10-01 21:45:52	::1	error	2015-10-01 21:45:52	::1	[403]	invalid query (Table 'test.news' doesn't exist(SELECT `news`.`id_news`, `news`.`sujet`, `news`.`texte`, `news`.`news_date` FROM `news` AS `news`))	C:\wamp2\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/jelix/neoinformatique/www/index.php
+array ( )
+
+	0	mysqlDbConnection->_doQuery()	C:\wamp2\www\jelix\lib\jelix\db\jDbConnection.class.php : 115
+	1	jDbConnection->query()	C:\wamp2\www\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 179
+	2	jDaoFactoryBase->findAll()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 22
+	3	defaultCtrl->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	4	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 21:52:03	::1	error	2015-10-01 21:52:03	::1	[517]	DAO neoinformatique~news, attribute "hidden" is unknown on tag "property" (file C:\wamp2\www\jelix\neoinformatique/modules/neoinformatique/daos/news.dao.xml)	C:\wamp2\www\jelix\lib\jelix\dao\jDaoProperty.class.php	111
+	/jelix/neoinformatique/www/index.php/neoinformatique/admin/
+array (   'module' => 'neoinformatique',   'action' => 'admin:index', )
+
+	0	jDaoProperty->__construct()	C:\wamp2\www\jelix\lib\jelix\dao\jDaoParser.class.php : 191
+	1	jDaoParser->parseRecord()	C:\wamp2\www\jelix\lib\jelix\dao\jDaoParser.class.php : 104
+	2	jDaoParser->parse()	C:\wamp2\www\jelix\lib\jelix\dao\jDaoCompiler.class.php : 51
+	3	jDaoCompiler->compile()	C:\wamp2\www\jelix\lib\jelix\core\jIncluder.class.php : 110
+	4	jIncluder::inc()	C:\wamp2\www\jelix\lib\jelix\dao\jDao.class.php : 39
+	5	jDao::create()	C:\wamp2\www\jelix\lib\jelix\dao\jDao.class.php : 62
+	6	jDao::get()	C:\wamp2\www\jelix\lib\jelix\controllers\jControllerDaoCrud.class.php : 181
+	7	jControllerDaoCrud->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	8	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 21:53:07	::1	error	2015-10-01 21:53:07	::1	[517]	DAO neoinformatique~news, attribute "type" is unknown on tag "property" (file C:\wamp2\www\jelix\neoinformatique/modules/neoinformatique/daos/news.dao.xml)	C:\wamp2\www\jelix\lib\jelix\dao\jDaoProperty.class.php	111
+	/jelix/neoinformatique/www/index.php/neoinformatique/admin/
+array (   'module' => 'neoinformatique',   'action' => 'admin:index', )
+
+	0	jDaoProperty->__construct()	C:\wamp2\www\jelix\lib\jelix\dao\jDaoParser.class.php : 191
+	1	jDaoParser->parseRecord()	C:\wamp2\www\jelix\lib\jelix\dao\jDaoParser.class.php : 104
+	2	jDaoParser->parse()	C:\wamp2\www\jelix\lib\jelix\dao\jDaoCompiler.class.php : 51
+	3	jDaoCompiler->compile()	C:\wamp2\www\jelix\lib\jelix\core\jIncluder.class.php : 110
+	4	jIncluder::inc()	C:\wamp2\www\jelix\lib\jelix\dao\jDao.class.php : 39
+	5	jDao::create()	C:\wamp2\www\jelix\lib\jelix\dao\jDao.class.php : 62
+	6	jDao::get()	C:\wamp2\www\jelix\lib\jelix\controllers\jControllerDaoCrud.class.php : 181
+	7	jControllerDaoCrud->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	8	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 21:53:41	::1	notice	2015-10-01 21:53:41	::1	[8]	Undefined offset: 0	C:\wamp2\www\jelix\lib\jelix\controllers\jControllerDaoCrud.class.php	194
+	/jelix/neoinformatique/www/index.php/neoinformatique/admin/
+array (   'module' => 'neoinformatique',   'action' => 'admin:index', )
+
+	0	jControllerDaoCrud->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	1	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 21:53:47	::1	notice	2015-10-01 21:53:47	::1	[8]	Undefined offset: 0	C:\wamp2\www\jelix\lib\jelix\controllers\jControllerDaoCrud.class.php	194
+	/jelix/neoinformatique/www/index.php/neoinformatique/admin/
+array (   'module' => 'neoinformatique',   'action' => 'admin:index', )
+
+	0	jControllerDaoCrud->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	1	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 21:53:52	::1	notice	2015-10-01 21:53:52	::1	[8]	Undefined offset: 0	C:\wamp2\www\jelix\lib\jelix\controllers\jControllerDaoCrud.class.php	194
+	/jelix/neoinformatique/www/index.php/neoinformatique/admin/
+array (   'module' => 'neoinformatique',   'action' => 'admin:index', )
+
+	0	jControllerDaoCrud->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	1	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 21:55:00	::1	notice	2015-10-01 21:55:00	::1	[8]	Undefined offset: 0	C:\wamp2\www\jelix\lib\jelix\controllers\jControllerDaoCrud.class.php	194
+	/jelix/neoinformatique/www/index.php/neoinformatique/admin/
+array (   'module' => 'neoinformatique',   'action' => 'admin:index', )
+
+	0	jControllerDaoCrud->index()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	1	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 21:57:09	::1	notice	2015-10-01 21:57:09	::1	[8]	Undefined index: MAIN	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\formulaire_news_html_t_15.php	12
+	/jelix/neoinformatique/www/index.php?module=neoinformatique&action=default:create_form
+array (   'module' => 'neoinformatique',   'action' => 'default:create_form', )
+
+	0	template_79067173f2b1dbdab8df9ee09cc4ef2e()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 47
+	2	defaultCtrl->create_form()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 22:19:32	::1	notice	2015-10-01 22:19:32	::1	[8]	Undefined index: MAIN	C:\wamp2\www\jelix\temp\neoinformatique\www\compiled\templates\modules\neoinformatique\formulaire_news_html_t_15.php	12
+	/jelix/neoinformatique/www/index.php?module=neoinformatique&action=default:create_form
+array (   'module' => 'neoinformatique',   'action' => 'default:create_form', )
+
+	0	template_79067173f2b1dbdab8df9ee09cc4ef2e()	C:\wamp2\www\jelix\lib\jelix\tpl\jTpl.class.php : 284
+	1	jTpl->fetch()	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php : 47
+	2	defaultCtrl->create_form()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	3	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+
+2015-10-01 22:20:51	::1	notice	2015-10-01 22:20:51	::1	[8]	Undefined property: jTpl::$body	C:\wamp2\www\jelix\neoinformatique\modules\neoinformatique\controllers\default.classic.php	73
+	/jelix/neoinformatique/www/index.php/neoinformatique/default/view
+array (   'module' => 'neoinformatique',   'action' => 'default:view', )
+
+	0	defaultCtrl->view()	C:\wamp2\www\jelix\lib\jelix\core\jCoordinator.class.php : 215
+	1	jCoordinator->process()	C:\wamp2\www\jelix\neoinformatique\www\index.php : 19
+
+

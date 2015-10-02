@@ -5,3 +5,4 @@
 {/foreach}
 </table>
 <p>si vous voulez acceder vers l'espace de gestion du contenu<a href="{jurl 'neoinformatique~admin:index'}">cliquer ici</a></p>
+<p>Affichage de ma liste des news sans jelix <a href="{jurl 'neoinformatique~view'}">cliquer ici</a></p>

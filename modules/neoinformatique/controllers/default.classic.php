@@ -62,4 +62,27 @@ class defaultCtrl extends jController {
         $rep->action='neoinformatique~default:index';
         return $rep;
     }
+
+    function view(){
+        $rep=$this->getResponse('html');
+        $fact=jDao::get('neoinformatique~news');
+        $liste_news=$fact->findAll();
+        $tpl=new jtpl();
+        $rep->title='liste des news';
+        $tpl->assign('liste',$liste_news);
+        $rep->body->assign('MAIN',$tpl->fetch('affichage_formulaire'));
+        return $rep;
+
+    }
+
+    /*function update(){
+        $rep=$this->getResponse('html');
+        $fact=jDao::get('neoinformatique~news');
+        $condition=new jdao::conditions();
+        $condition
+
+
+
+
+    }*/
 }
